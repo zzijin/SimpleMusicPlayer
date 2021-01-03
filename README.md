@@ -1,7 +1,7 @@
 # SimpleMusicPlayer  
 
 #### 介绍  
-简洁的音乐播放器APP  
+简洁轻巧的本地音乐播放器   
 SignInAPP:https://gitee.com/zzijin/SignIn  
 
 #### Service(服务)   
@@ -9,7 +9,7 @@ Service是一个后台运行的组件，执行长时间运行且不需要用户�
 Started（Android的应用程序组件，如活动，通过startService()启动了服务，则服务是Started状态。一旦启动，服务可以在后台无限期运行，即使启动它的组件已经被销毁）  
 Bound（当Android的应用程序组件通过bindService()绑定了服务，则服务是Bound状态。Bound状态的服务提供了一个客户服务器接口来允许组件与服务进行交互，如发送请求，获取结果，甚至通过IPC来进行跨进程通信）   
 ![Server生命周期](https://images.gitee.com/uploads/images/2021/0103/195158_3af8cf05_8505810.png "屏幕截图.png")   
-本APP服务构造:  
+MusicServer构造:  
 
 ```
 public class MusicService extends Service {
