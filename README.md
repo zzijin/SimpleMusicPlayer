@@ -2,7 +2,6 @@
 
 #### 介绍  
 简洁轻巧的本地音乐播放器   
-SignInAPP:https://gitee.com/zzijin/SignIn  
 
 #### Service(服务)   
 Service是一个后台运行的组件，执行长时间运行且不需要用户交互的任务。即使应用被销毁也依然可以工作。服务基本上包含两种状态：   
